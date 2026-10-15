@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    string name;
+
+    cout<<"enter your name = ";
+    cin>>name;
+    cout<<"enter your age = ";
+    cin>>age;
+
+    cout<<"wellcome " << name << ",you are " << age << " year old" << endl;
+
+    return 0;
+    
+}
